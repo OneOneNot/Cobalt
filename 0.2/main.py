@@ -7,5 +7,9 @@ stat = True
 while True:
     text = voice.getaudio()
     print(text)
-    stat = cobalt.run(text, stat)
+    try:
+        stat = cobalt.run(text, stat)
+    except:
+        break
+        
 installer.update()
