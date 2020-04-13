@@ -5,7 +5,7 @@ import json
 
 files = []
 version = ""
-verpath = "https://oneonenot.github.io/cobalt.json"
+verpath = "https://oneonenot.github.io/Cobalt/cobalt.json"
 
 
 def init():
@@ -21,7 +21,7 @@ def download(name):
 
 def getversion():
     global version
-    version = requests.get("https://oneonenot.github.io/Cobalt/cobalt.version").text
+    version = requests.get("https://oneonenot.github.io/Cobalt/cobalt.version").text[:3]
 
 
 def analyze(text):
@@ -29,7 +29,7 @@ def analyze(text):
     global version
     history = json.loads(text)
     ver = history[version]
-    files = ver[files]
+    files = ver["files"]
 
 
 def update():
