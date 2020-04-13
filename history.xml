@@ -1,0 +1,10 @@
+<cobalt>
+  <version id="0.1">
+    <file name="main.py">
+    <file name="cobalt.py">
+    <file name="voice.py">
+    <file name="Util.py">
+    <file name="update.py">
+    <file name="install.bat">
+  </version>
+</cobalt>
