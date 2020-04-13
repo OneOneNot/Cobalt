@@ -3,7 +3,7 @@ import cobalt
 import installer
 
 input("press enter when you are ready")
-stat = True
+stat = False
 while True:
     text = voice.getaudio()
     print(text)
