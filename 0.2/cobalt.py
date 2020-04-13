@@ -45,7 +45,7 @@ def run(c, status):
             if a == "Yes" or a == "yes":
                 
                 voice.speak("OK. Goodbye")
-                sys.exit()
+                raise Exception("exit")
 
             else:
                 
@@ -110,7 +110,7 @@ def run(c, status):
             if a == "Yes" or a == "yes":
                 
                 voice.speak("OK. Goodbye")
-                sys.exit()
+                raise Exception("exit")
 
             else:
                 
