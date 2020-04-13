@@ -1,5 +1,8 @@
 {
   "0.1": {
     "files": ["main.py", "cobalt.py", "voice.py", "Util.py", "cobalt.bat", "installer.py"]
+  },
+  "0.2": {
+    "files": ["main.py", "cobalt.py", "voice.py", "Util.py", "cobalt.bat", "installer.py", "voicemath.py"]
   }
 }
